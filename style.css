@@ -30,7 +30,11 @@ body{
 
 .container a{
     text-decoration: none;
-    color: lightblue;
+    color: rgb(103, 132, 141);
+}
+
+a:hover {
+    color: rgb(88, 159, 183); 
 }
 
 .btn{
@@ -43,6 +47,11 @@ body{
     font-size: 16px;
     border: 0;
     border-radius: 5px;
+}
+
+.btn:hover {
+    color: rgb(122, 131, 134); 
+    background: rgb(148, 206, 226);
 }
 
 .btn:focus{
